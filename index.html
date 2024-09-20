@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Networks</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+        }
+
+        .chat-box {
+            background-color: #141414;
+            border-width: 20px;
+            border-radius: 10px;
+            padding: 30px 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .chat-box p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .icon {
+            font-size: 40px;
+            color: #fff;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            filter: drop-shadow(0 0 20px currentcolor) drop-shadow(0 0 17px currentcolor);
+        }
+        .icon-x svg {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: 0 auto;
+        }
+        .icon-x {
+            filter: drop-shadow(0 0 20px #1da1f2) drop-shadow(0 0 17px #1da1f2);
+        }
+
+        /* Placeholder icons */
+        .icon.beeper { color: #3e83ff; }
+        .icon.google { color: #db4437; }
+        .icon.facebook { color: #1877f2; }
+        .icon.rcs { color: #ffac33; }
+        .icon.signal { color: #3a76f0; }
+        .icon.telegram { color: #26a5e4; }
+        .icon.whatsapp { color: #25d366; }
+        .icon.instagram { color: #e1306c; }
+        .icon.linkedin { color: #0077b5; }
+        .icon.discord { color: #5865f2; }
+        .icon.slack { color: #4a154b; }
+        .icon.youtube { color: #FF0000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Networks</h1>
+        </header>
+        <section class="chat-section">
+            <h2>Call</h2>
+            <div class="grid">
+                <div class="chat-box">
+                    <a href="tel:+918777845713">
+                        <span class="icon fas fa-phone" style="color: #ffffff;"></span>
+                        <p>Phone</p></a>
+                    </div>
+                </section>
+
+        <section class="chat-section">
+            <h2>Chat</h2>
+            <div class="grid">
+                <!--<div class="chat-box">
+                    <a href="https://matrix.org/">
+                    <span class="icon fas fa-comments beeper"></span>
+                    <p>Beeper/Matrix</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://chat.google.com/">
+                    <span class="icon fab fa-google google"></span>
+                    <p>Google Chat</p></a>
+                </div>-->
+                <div class="chat-box">
+                    <a href="sms:+918777845713">
+                    <span class="icon fas fa-sms rcs"></span>
+                    <p>Message</p></a>
+                </div>
+                <!--<div class="chat-box">
+                    <a href="https://signal.org/">
+                    <span class="icon fas fa-shield-alt signal"></span>
+                    <p>Signal</p></a>
+                </div>-->
+                <div class="chat-box">
+                    <a href="https://wa.me/8777845713">
+                    <span class="icon fab fa-whatsapp whatsapp"></span>
+                    <p>WhatsApp</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://www.snapchat.com/add/shovith_deb002?share_id=Zo5SjSFJBfQ&locale=en-GB">
+                    <span class="icon fab fa-snapchat-ghost" style="color: #FFFC00;"></span>
+                    <p>Snapchat</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://t.me/Shovith002">
+                    <span class="icon fab fa-telegram-plane telegram"></span>
+                    <p>Telegram</p></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-dms">
+            <h2>Social Medias</h2>
+            <div class="grid">
+                <div class="chat-box">
+                    <a href="https://www.facebook.com/shovith.debnath.77?mibextid=ZbWKwL">
+                    <span class="icon fab fa-facebook-f facebook"></span>
+                    <p>Messenger</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://www.instagram.com/tu_amante_sd?igsh=NWV4cng2MmNrMmp0">
+                    <span class="icon fab fa-instagram instagram"></span>
+                    <p>Instagram</p></a>
+                </div>
+                <!--<div class="chat-box">
+                    <a href="https://www.linkedin.com/">
+                    <span class="icon fab fa-linkedin linkedin"></span>
+                    <p>LinkedIn</p></a>
+                </div>-->
+                <div class="chat-box">
+                    <a href="https://x.com/whoishawkay?t=pBbbMNKKeHVnRrcbPzAOpQ&s=09">
+                    <span class="icon-x">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#1da1f2"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>           
+                    </span>
+                    <p>X / Twitter</p></a>
+                </div>
+                <!--<div class="chat-box">
+                    <a href="https://www.tiktok.com/">
+                    <span class="icon fab fa-tiktok" style="color: #69C9D0;"></span>
+                    <p>TikTok</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://www.pinterest.com/">
+                    <span class="icon fab fa-pinterest" style="color: #E60023;"></span>
+                    <p>Pinterest</p></a>
+                </div>-->
+            </div>
+        </section>
+
+        <section class="community-chat">
+            <h2>Community</h2>
+            <div class="grid">
+                <div class="chat-box">
+                    <a href="https://discord.com/">
+                    <span class="icon fab fa-discord discord"></span>
+                    <p>Discord</p></a>
+                </div>
+                <!--<div class="chat-box">
+                    <a href="https://www.youtube.com/">
+                    <span class="icon fab fa-youtube youtube"></span>
+                    <p>YouTube</p></a>
+                </div>-->
+                <div class="chat-box">
+                    <a href="https://www.reddit.com/">
+                    <span class="icon fab fa-reddit-alien" style="color: #FF4500;"></span>
+                    <p>Reddit</p></a>
+                </div>
+                <!--<div class="chat-box">
+                    <a href="https://www.twitch.tv/">
+                    <span class="icon fab fa-twitch" style="color: #9146FF;"></span>
+                    <p>Twitch</p></a>
+                </div>
+                <div class="chat-box">
+                    <a href="https://www.tumblr.com/">
+                    <span class="icon fab fa-tumblr" style="color: #36465D;"></span>
+                    <p>Tumblr</p></a>
+                </div>-->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
